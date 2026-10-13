@@ -17234,6 +17234,7 @@ GameObject:
   - component: {fileID: 1553023441}
   - component: {fileID: 1553023442}
   - component: {fileID: 1553023443}
+  - component: {fileID: 1553023444}
   m_Layer: 0
   m_Name: Guard
   m_TagString: Untagged
@@ -17314,6 +17315,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 60e1cd7a3ba7f0c46b5ddf7715cb645a, type: 2}
+--- !u!114 &1553023444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553023439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c1c328b1893fefd42ae87207bcb99e99, type: 2}
 --- !u!1 &1555517130 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 60e87267da2786a4f8ba81074db1bfd8, type: 3}
